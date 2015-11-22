@@ -1,0 +1,9 @@
+{
+  "firebase": "jh-vk",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

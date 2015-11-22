@@ -1,7 +1,76 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Wedding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-Coming Soon
+    <div id="welcome">The Wedding of <div>James Hoekzema and Violet Kouzes</div></div>
+    <div id="view" class="animate"></div>
+    <div id="tiles">
+            <div class='row'>
+            <div class='square' route="/rsvp">
+                <div class='content'>
+                    <div class="bottom-left">RSVP</div>
+                </div>
+            </div>
+            <div class='square' route="/venue">
+                <div class='content'>
+                    <div class="bottom-left">Venue</div>
+                </div>
+            </div>
+        </div>
+            <div class='row'>
+            <div class='square'>
+                <div class='content' route="/bridesmaids">
+                    <div class="bottom-left">Bridesmaids</div>
+                </div>
+            </div>
+            <div class='square'>
+                <div class='content' route="/groomsmen">
+                    <div class="bottom-left">Groomsmen</div>
+                </div>
+            </div>
+        </div>
+            <div class='row'>
+            <div class='square'>
+                <div class='content'>
+                        <img src="img/0.jpg"/>
+                </div>
+            </div>
+        </div>
+            <div class='row'>
+            <div class='square' route="/engagement">
+                <div class='content'>
+                    <div class="bottom-left">Engagement</div>
+                </div>
+            </div>
+            <div class='square'  route="/photos">
+                <div class='content'>
+                    <div class="bottom-left">Photos</div>
+                </div>
+            </div>
+        </div>
+            <div class='row'>
+            <div class='square' route="/message">
+                <div class='content'>
+                    <div class="bottom-left">Message</div>
+                </div>
+            </div>
+            <div class='square' route="/registry">
+                <div class='content'>
+                    <div class="bottom-left">Registry</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Website created by James Hoekzema</div>
+    <script src="polyfill.js"></script>
+    <script src="hash.js"></script>
+    <script src="template.js"></script>
+    <script src="load.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
