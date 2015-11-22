@@ -1,5 +1,5 @@
 var Route = (function(){
-    if(!location.hash.match(/^#\/.*$/)) location.hash = '#/';
+    if(!location.hash.match(/^#\/.*$/)) location = '/#/';
     var oldRoute = location.hash.substr(1), newRoute = location.hash.substr(1), oldRouteIndex = -1, newRouteIndex = -1;
     var exit = function(){};
 
@@ -27,6 +27,7 @@ var Route = (function(){
             newRoute = hash;
             routes[routeFound].listener(hash.split('/')[1], params, hash);
         }else if(oldRoute){
+            console.log('navigating back');
             history.back();
         }
     };
