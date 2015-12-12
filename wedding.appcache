@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+404.html
+style.css
+favicon.png
+/views/*
+/javascript/*
+/img/*
+/images/*
+/emoticons/*
+
+NETWORK:
+/
+/remote/*
+*

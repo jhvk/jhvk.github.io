@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.05345912">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
                 <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1163522">
+            <state vertical-scroll-proportion="-2.8461537">
               <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
               <folding>
                 <element signature="e#141#374#0" expanded="false" />
@@ -109,6 +109,16 @@
                 <element signature="e#4913#4969#0" expanded="false" />
                 <element signature="e#4979#5024#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wedding.appcache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wedding.appcache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +165,6 @@
         <option value="$PROJECT_DIR$/javascript/template.js" />
         <option value="$PROJECT_DIR$/javascript/messenger.js" />
         <option value="$PROJECT_DIR$/images/guide" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/photos/guide" />
         <option value="$PROJECT_DIR$/views/venue.html" />
@@ -165,6 +174,8 @@
         <option value="$PROJECT_DIR$/javascript/script.js" />
         <option value="$PROJECT_DIR$/views/message.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/wedding.appcache" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -220,20 +231,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jhvk.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jhvk.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,7 +337,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10590095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -401,24 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascript/messenger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#176#364#0" expanded="false" />
-            <element signature="e#426#742#0" expanded="false" />
-            <element signature="e#831#983#0" expanded="false" />
-            <element signature="e#1027#1100#0" expanded="false" />
-            <element signature="n#!!block;n#parseMsg#0" expanded="false" />
-            <element signature="n#!!block;n#activeMessage#0" expanded="false" />
-            <element signature="n#!!block;n#loadMessages#0" expanded="false" />
-            <element signature="e#2359#2720#0" expanded="false" />
-            <element signature="n#!!block;n#unloadMessages#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1054,21 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/messenger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1097,7 +1061,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1163522">
+        <state vertical-scroll-proportion="-2.8461537">
           <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
           <folding>
             <element signature="e#141#374#0" expanded="false" />
@@ -1132,6 +1096,29 @@
             <element signature="e#4811#4900#0" expanded="false" />
             <element signature="e#4913#4969#0" expanded="false" />
             <element signature="e#4979#5024#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedding.appcache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05345912">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
