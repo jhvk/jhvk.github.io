@@ -34,7 +34,7 @@ var setup = function(){
             img.classList.add('show-content');
         },5);
     };
-    var last = 0, next = 0;
+    var next = [];
     setInterval(function(){
         if(location.hash == "" || location.hash == "#/"){
             img.classList.remove('show-content');
@@ -44,17 +44,14 @@ var setup = function(){
                 img.classList.remove('change-content');
             }, 400);
             setTimeout(function(){
-                do{
-                    next = Math.floor(Math.random()*6);
-                }while(next == last);
-                last = next;
-                img.children[0].src = 'img/' + next + '.jpg';
+                if(!next.length) for(var i = 0; i < 14; i++) next.splice(Math.floor(Math.random()*next.length),0,i);
+                img.children[0].src = 'img/' + next.shift() + '.jpg';
             }, 410);
         }
     }, 8000);
     //preload images into cache
     var cache = [];
-    for(var i = 0; i < 6; i++){
+    for(var i = 0; i < 14; i++){
         cache[i] = new Image();
         cache[i].src = 'img/' + i + '.jpg';
     }

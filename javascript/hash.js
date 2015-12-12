@@ -28,7 +28,7 @@ var Route = (function(){
             routes[routeFound].listener(hash.split('/')[1], params, hash);
         }else if(oldRoute){
             console.log('navigating back');
-            history.back();
+            location = '/#/';
         }
     };
 
