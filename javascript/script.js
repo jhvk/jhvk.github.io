@@ -91,8 +91,8 @@ body.addEventListener('touchstart', beginListening, true);
 body.addEventListener('touchmove', moveListener, true);
 body.addEventListener('touchend', routeListener, true);
 
-var tileRoute = function(route){
-    load('views/template.html')(function(html){
+function staticRoute(route){
+    load('views/' + route + '.html')(function(html){
         view.innerHTML = template(html, {
             title: route.toUpperCase(),
             description: 'This is where ' + route + ' information will be.'
@@ -101,6 +101,10 @@ var tileRoute = function(route){
             view.classList.add('show-content');
         }, 200);
     });
+}
+
+var tileRoute = function(){
+    staticRoute('template');
 };
 
 var tilesLeave = function(){
@@ -124,7 +128,7 @@ var rsvpCode = function(route, params){
     });
 };
 
-Route([ '/rsvp','/venue','/bridesmaids',
+Route([ '/rsvp','/bridesmaids',
         '/groomsmen','/engagement','/photos',
         '/registry'], tileRoute, tilesLeave);
 
@@ -133,6 +137,7 @@ Route('/rsvp/:code', rsvpCode, tilesLeave);
 Route('/', function(){
     setTimeout(showSquares, 450);
 }, hideSquares);
+Route(['/venue'], staticRoute, tilesLeave);
 
 var days = Math.floor(((new Date(2016,5,18,15)).getTime() - (new Date()).getTime())/(1000*60*60*24));
 if(days > 1){

@@ -34,7 +34,7 @@ var Route = (function(){
 
     var routes = [];
 
-    setTimeout(process, 10);
+    setTimeout(process, 100);
 
     var createRoute = function(route, response, onLeave){
         if(!response && route){
