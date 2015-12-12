@@ -1,7 +1,7 @@
 <h3>{{title}}</h3>
 <div id="new-msg">
     <div>Name:<input id="msg-name"/></div>
-    <textarea id="msg-content"></textarea>
+    <div id="msg-wrap"><textarea id="msg-content"></textarea></div>
     <button id="post-msg">Post</button>
 </div>
 <div id="messages">{{(function(){
@@ -16,4 +16,4 @@
     return html;
 })()}}</div>
 <div id="message-hint">Message Thread hidden on small screens</div>
-<button route="/" class="animate" id="back">Back</button>
+<button route="/" class="animate" id="back-msg">Back</button>

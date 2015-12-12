@@ -63,5 +63,6 @@ var Route = (function(){
         }
         return createRoute;
     };
+    createRoute.routes = routes;
     return createRoute;
 })();

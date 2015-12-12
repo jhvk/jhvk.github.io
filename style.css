@@ -135,21 +135,27 @@ button{
     right: 1em;
     left: 1em;
 }
-@media screen and (max-width: 640px){
-    #view.show-content{
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-}
-#back{
+#back, #back-msg{
     position: absolute;
     bottom: 1em;
     left: 1em;
     right: 1em;
     width: 70%;
 }
+@media screen and (max-width: 640px){
+    #view.show-content{
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        overflow: auto;
+    }
+    #back{
+        position: initial;
+        margin: 1em auto;
+    }
+}
+
 
 .footer{
     width: 100%;
@@ -188,7 +194,9 @@ button{
     margin: 1em;
     float: left;
     background-size: 100%;
-    width: 95%;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 #messages .message .sender{
     float: left;
@@ -214,20 +222,41 @@ button{
 #message-hint{display: none;}
 @media screen and (max-width: 640px){
     #messages{display: none;}
-    #message-hint{display: block;}
+    #message-hint{
+        display: block;
+        position: absolute;
+        top: 13em;
+    }
 }
 
 #new-msg{
-    width: 90%;
-    margin: 0 auto;
+    position: absolute;
     text-align: left;
+    float: left;
+    left: 2em;
+    right: 3em;
 }
 #msg-name{
     margin: 0.5em;
+    width: 12em;
+}
+#msg-wrap{
+    height: 4em;
+    right: 5em;
+    position: absolute;
+    left: 0;
+    padding: 0;
 }
 #msg-content{
     resize: none;
-    height: 4em;
-    width: 90%;
+    width: 100%;
+    height: 100%;
 }
-#post-msg{margin: 0.5em auto;}
+#post-msg{
+    margin: 0.5em auto;
+    float: right;
+}
+
+#bridesmaids div, #groomsmen div{
+    margin: 1em auto;
+}
