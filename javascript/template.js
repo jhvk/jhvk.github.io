@@ -7,7 +7,14 @@ var template = function(html, data){
         return open + args.join(',') + close;
     };
     (function(){
-        var matches = html.match(/\{\{[^\{}]*}}/g);
+        var matches = [];
+        var temp = html;
+        while(temp.indexOf('{{') > -1 && temp.indexOf('}}') > -1){
+            var start = temp.indexOf('{{');
+            var end = temp.indexOf('}}');
+            matches.push(temp.substr(start,end+2-start));
+            temp = temp.substr(end+2);
+        }
         var newData = [];
         for(var prop in data) newData.push(data[prop]);
         for(var i = 0; i < matches.length; i++){

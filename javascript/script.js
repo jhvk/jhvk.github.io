@@ -126,10 +126,13 @@ var rsvpCode = function(route, params){
 
 Route([ '/rsvp','/venue','/bridesmaids',
         '/groomsmen','/engagement','/photos',
-        '/message','/registry'], tileRoute, tilesLeave);
+        '/registry'], tileRoute, tilesLeave);
 
 Route('/rsvp/:code', rsvpCode, tilesLeave);
 
 Route('/', function(){
     setTimeout(showSquares, 450);
 }, hideSquares);
+
+var days = Math.floor(((new Date(2016,5,18,15)).getTime() - (new Date()).getTime())/(1000*60*60*24));
+document.querySelector('#days').innerHTML = days + " Days Until";
