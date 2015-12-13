@@ -34,7 +34,7 @@ var Route = (function(){
 
     var routes = [];
 
-    setTimeout(process, 100);
+    window.addEventListener('load', process);
 
     var createRoute = function(route, response, onLeave){
         if(!response && route){

@@ -1,12 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Dosis:400,200);
-@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(Dosis.css);
+@import url(Pinyon.css);
 
 body{
     margin: 0;
     padding: 0;
     height: 100%;
     text-align: center;
-    background: url(img/back.png) #463a47 no-repeat;
+    background: url(../img/back.png) #463a47 no-repeat;
     font-family: 'Dosis', sans-serif;
     color: white;
     font-weight:200;
@@ -15,7 +15,7 @@ body{
 button{
     display: block;
     background: #5dc0ab;
-    background-image: url(img/curve.png);
+    background-image: url(../img/curve.png);
     background-size: 100%;
     border: none;
     color: white;
@@ -76,7 +76,7 @@ button{
     bottom: .15em;
     right: .15em;
     background: #5dc0ab;
-    background-image: url(img/curve.png);
+    background-image: url(../img/curve.png);
     background-size: 100%;
     font-size: 1.3em;
     text-align: left;
@@ -96,7 +96,7 @@ button{
 }
 .content:hover,.content:active,button:hover,button:active{
     background:#17a587;
-    background-image: url(img/curve.png);
+    background-image: url(../img/curve.png);
     background-size: 100%;
 }
 .large-text{
@@ -115,7 +115,7 @@ button{
 }
 
 #view{
-    background: url(img/back.png) #463a47 no-repeat;
+    background: url(../img/back.png) #463a47 no-repeat;
     box-shadow: 0 0 1em 0.1em rgba(0,0,0,.5);
     padding: 1em;
     position: fixed;
@@ -188,7 +188,7 @@ button{
     overflow-y: auto;
 }
 #messages .message {
-    background: url(img/curve.png) white no-repeat bottom;
+    background: url(../img/curve.png) white no-repeat bottom;
     color: black;
     box-shadow: 0 0 0.5em 0.1em rgba(0,0,0,.5);
     margin: 1em;
