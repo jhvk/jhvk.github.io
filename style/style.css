@@ -26,6 +26,10 @@ button{
     padding: 0.5em 1em;
     margin: 1em auto;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 #tiles{
     max-width: 960px;
