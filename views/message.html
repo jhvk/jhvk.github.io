@@ -4,17 +4,6 @@
     <div id="msg-wrap"><textarea id="msg-content"></textarea></div>
     <button id="post-msg">Post</button>
 </div>
-<div id="messages">{{(function(){
-    var html = "";
-    messages.forEach(function(msg){
-        html = "<div class=\"message\" id=\"" + msg.id + "\">" +
-                    "<div class='sender'>" + msg.sender + "</div>" +
-                    "<div class='msg'>" + parseMsg(msg.message) + "</div>" +
-                    "<div class='time'>" + new Date(msg.time).toLocaleString() + "</div>" +
-                "</div>" + html;
-    });
-    console.log(html);
-    return html;
-})()}}</div>
+<div id="messages">{{messages}}</div>
 <div id="message-hint">Message Thread hidden on small screens</div>
 <button route="/" class="animate" id="back-msg">Back</button>

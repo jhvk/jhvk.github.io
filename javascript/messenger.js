@@ -58,10 +58,20 @@ function activeMessage(msg){
 function loadMessages(){
     load('views/message.html')(function(html){
         messenger.addListener(activeMessage);
+        var msg = (function(){
+            var html = "";
+            messenger.messages().forEach(function(msg){
+                html = "<div class=\"message\" id=\"" + msg.id + "\">" +
+                    "<div class='sender'>" + msg.sender + "</div>" +
+                    "<div class='msg'>" + parseMsg(msg.message) + "</div>" +
+                    "<div class='time'>" + new Date(msg.time).toLocaleString() + "</div>" +
+                    "</div>" + html;
+            });
+            return html;
+        })();
         view.innerHTML = template(html, {
             title: 'Messages',
-            messages: messenger.messages(),
-            parseMsg: parseMsg
+            messages: msg
         });
         document.querySelector('#post-msg').addEventListener('click',function(){
             messenger.write(
