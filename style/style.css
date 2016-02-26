@@ -131,12 +131,12 @@ a{
     overflow: hidden;
     visibility: hidden;
     z-index: 999;
-    transform: scaleX(0) scaleY(0);
-    -webkit-transform: scaleX(0) scaleY(0);
+    transform: scaleX(0) scaleY(0) !important;
+    -webkit-transform: scaleX(0) scaleY(0) !important;
 }
 #view.show-content{
-    transform: scaleX(0) scaleY(0);
-    -webkit-transform: scaleX(0) scaleY(0);
+    transform: scaleX(0) scaleY(0) !important;
+    -webkit-transform: scaleX(0) scaleY(0) !important;
 }
 #back, #back-msg{
     position: absolute;
