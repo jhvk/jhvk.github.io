@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="57bb5a35-204b-4767-a4d7-152e815f964c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/message.html" afterPath="$PROJECT_DIR$/views/message.html" />
     </list>
     <ignored path="wedding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,7 +106,6 @@
                 <element signature="e#1027#1100#0" expanded="false" />
                 <element signature="n#!!block;n#parseMsg#0" expanded="false" />
                 <element signature="n#!!block;n#activeMessage#0" expanded="false" />
-                <element signature="n#!!block;n#loadMessages#0" expanded="false" />
                 <element signature="e#2359#2720#0" expanded="false" />
                 <element signature="n#!!block;n#unloadMessages#0" expanded="false" />
               </folding>
@@ -114,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49282297">
-              <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+            <state vertical-scroll-proportion="-9.846154">
+              <caret line="175" column="41" selection-start-line="175" selection-start-column="41" selection-end-line="175" selection-end-column="41" />
               <folding>
                 <element signature="e#54#290#0" expanded="false" />
                 <element signature="e#297#618#0" expanded="false" />
@@ -139,7 +138,6 @@
                 <element signature="e#2928#3161#0" expanded="false" />
                 <element signature="e#3171#3265#0" expanded="false" />
                 <element signature="e#3280#3499#0" expanded="false" />
-                <element signature="e#3518#3623#0" expanded="false" />
                 <element signature="e#3639#3786#0" expanded="false" />
                 <element signature="e#3797#3911#0" expanded="false" />
                 <element signature="e#3931#4174#0" expanded="false" />
@@ -159,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="message.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/message.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.40669855">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -206,7 +204,6 @@
         <option value="$PROJECT_DIR$/views/bridesmaids.html" />
         <option value="$PROJECT_DIR$/views/groomsmen.html" />
         <option value="$PROJECT_DIR$/javascript/script.js" />
-        <option value="$PROJECT_DIR$/views/message.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/wedding.appcache" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -217,6 +214,7 @@
         <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/views/venue.html" />
         <option value="$PROJECT_DIR$/style/style.css" />
+        <option value="$PROJECT_DIR$/views/message.html" />
       </list>
     </option>
   </component>
@@ -271,6 +269,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jhvk.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jhvk.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,14 +393,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13593256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26298702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26298702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -472,7 +484,6 @@
             <element signature="e#2928#3161#0" expanded="false" />
             <element signature="e#3171#3265#0" expanded="false" />
             <element signature="e#3280#3499#0" expanded="false" />
-            <element signature="e#3518#3623#0" expanded="false" />
             <element signature="e#3639#3786#0" expanded="false" />
             <element signature="e#3797#3911#0" expanded="false" />
             <element signature="e#3931#4174#0" expanded="false" />
@@ -569,7 +580,6 @@
             <element signature="e#2928#3161#0" expanded="false" />
             <element signature="e#3171#3265#0" expanded="false" />
             <element signature="e#3280#3499#0" expanded="false" />
-            <element signature="e#3518#3623#0" expanded="false" />
             <element signature="e#3639#3786#0" expanded="false" />
             <element signature="e#3797#3911#0" expanded="false" />
             <element signature="e#3931#4174#0" expanded="false" />
@@ -666,7 +676,6 @@
             <element signature="e#2928#3161#0" expanded="false" />
             <element signature="e#3171#3265#0" expanded="false" />
             <element signature="e#3280#3499#0" expanded="false" />
-            <element signature="e#3518#3623#0" expanded="false" />
             <element signature="e#3639#3786#0" expanded="false" />
             <element signature="e#3797#3911#0" expanded="false" />
             <element signature="e#3931#4174#0" expanded="false" />
@@ -763,7 +772,6 @@
             <element signature="e#2928#3161#0" expanded="false" />
             <element signature="e#3171#3265#0" expanded="false" />
             <element signature="e#3280#3499#0" expanded="false" />
-            <element signature="e#3518#3623#0" expanded="false" />
             <element signature="e#3639#3786#0" expanded="false" />
             <element signature="e#3797#3911#0" expanded="false" />
             <element signature="e#3931#4174#0" expanded="false" />
@@ -908,32 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/messenger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-          <folding>
-            <element signature="e#176#364#0" expanded="false" />
-            <element signature="e#426#742#0" expanded="false" />
-            <element signature="e#831#983#0" expanded="false" />
-            <element signature="e#1027#1100#0" expanded="false" />
-            <element signature="n#!!block;n#parseMsg#0" expanded="false" />
-            <element signature="n#!!block;n#activeMessage#0" expanded="false" />
-            <element signature="n#!!block;n#loadMessages#0" expanded="false" />
-            <element signature="e#2359#2720#0" expanded="false" />
-            <element signature="n#!!block;n#unloadMessages#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1034,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49282297">
-          <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+        <state vertical-scroll-proportion="-9.846154">
+          <caret line="175" column="41" selection-start-line="175" selection-start-column="41" selection-end-line="175" selection-end-column="41" />
           <folding>
             <element signature="e#54#290#0" expanded="false" />
             <element signature="e#297#618#0" expanded="false" />
@@ -1056,7 +1038,6 @@
             <element signature="e#2928#3161#0" expanded="false" />
             <element signature="e#3171#3265#0" expanded="false" />
             <element signature="e#3280#3499#0" expanded="false" />
-            <element signature="e#3518#3623#0" expanded="false" />
             <element signature="e#3639#3786#0" expanded="false" />
             <element signature="e#3797#3911#0" expanded="false" />
             <element signature="e#3931#4174#0" expanded="false" />
@@ -1072,6 +1053,31 @@
             <element signature="e#5069#5114#0" expanded="false" />
             <element signature="e#5148#5173#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/messenger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding>
+            <element signature="e#176#364#0" expanded="false" />
+            <element signature="e#426#742#0" expanded="false" />
+            <element signature="e#831#983#0" expanded="false" />
+            <element signature="e#1027#1100#0" expanded="false" />
+            <element signature="n#!!block;n#parseMsg#0" expanded="false" />
+            <element signature="n#!!block;n#activeMessage#0" expanded="false" />
+            <element signature="e#2359#2720#0" expanded="false" />
+            <element signature="n#!!block;n#unloadMessages#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40669855">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
