@@ -172,8 +172,8 @@ a{
     transform: rotateY(0deg) !important;
 }
 #view.show-content{
-    transform: scaleX(0) scaleY(0) !important;
-    -webkit-transform: scaleX(0) scaleY(0) !important;
+    transform: scaleX(1) scaleY(1) !important;
+    -webkit-transform: scaleX(1) scaleY(1) !important;
 }
 .change-content{
     -o-transform: rotateY(-90deg);
