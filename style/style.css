@@ -134,10 +134,6 @@ a{
     transform: scaleX(0) scaleY(0) !important;
     -webkit-transform: scaleX(0) scaleY(0) !important;
 }
-#view.show-content{
-    transform: scaleX(0) scaleY(0) !important;
-    -webkit-transform: scaleX(0) scaleY(0) !important;
-}
 #back, #back-msg{
     position: absolute;
     bottom: 1em;
@@ -174,6 +170,10 @@ a{
     -moz-transform: rotateY(0deg) !important;
     -webkit-transform: rotateY(0deg) !important;
     transform: rotateY(0deg) !important;
+}
+#view.show-content{
+    transform: scaleX(0) scaleY(0) !important;
+    -webkit-transform: scaleX(0) scaleY(0) !important;
 }
 .change-content{
     -o-transform: rotateY(-90deg);
