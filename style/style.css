@@ -189,6 +189,7 @@ a{
     top: 14.5em;
     bottom: 5em;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 #messages .message {
     background: url(../img/curve.png) white no-repeat bottom;
@@ -197,9 +198,7 @@ a{
     margin: 1em;
     float: left;
     background-size: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
+    width: 95%;
 }
 #messages .message .sender{
     float: left;
