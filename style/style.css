@@ -121,22 +121,22 @@ a{
     background: url(../img/back.png) #463a47 no-repeat;
     box-shadow: 0 0 1em 0.1em rgba(0,0,0,.5);
     padding: 1em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     position: fixed;
-    top: 50%;
-    right: 50%;
-    left: 50%;
-    bottom: 50%;
     max-width: 960px;
     margin: auto;
     overflow: hidden;
     visibility: hidden;
     z-index: 999;
+    transform: scaleX(0) scaleY(0);
+    -webkit-transform: scaleX(0) scaleY(0);
 }
 #view.show-content{
-    top: 1em;
-    bottom: 1em;
-    right: 1em;
-    left: 1em;
+    transform: scaleX(0) scaleY(0);
+    -webkit-transform: scaleX(0) scaleY(0);
 }
 #back, #back-msg{
     position: absolute;
