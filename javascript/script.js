@@ -125,14 +125,14 @@ var rsvpCode = function(route, params){
     });
 };
 
-Route([ '/rsvp','/engagement','/photos','/registry'], tileRoute, tilesLeave);
+Route([ '/rsvp','/engagement','/photos'], tileRoute, tilesLeave);
 
 Route('/rsvp/:code', rsvpCode, tilesLeave);
 
 Route('/', function(){
     setTimeout(showSquares, 450);
 }, hideSquares);
-Route(['/venue','/bridesmaids','/groomsmen'], staticRoute, tilesLeave);
+Route(['/venue','/bridesmaids','/groomsmen', '/registry'], staticRoute, tilesLeave);
 
 var days = Math.floor(((new Date(2016,5,18,15)).getTime() - (new Date()).getTime())/(1000*60*60*24));
 if(days > 1){
