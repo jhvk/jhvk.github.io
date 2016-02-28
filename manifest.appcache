@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#2-27-2016 v0.4
+#2-27-2016 v0.5
 
 index.html
 style/style.css
@@ -17,6 +17,7 @@ views/message.html
 views/rsvp.html
 views/template.html
 views/venue.html
+views/registry.html
 javascript/hash.js
 javascript/load.js
 javascript/messenger.js
