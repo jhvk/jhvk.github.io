@@ -281,4 +281,5 @@ a{
 #first_name, #last_name{
     display: block;
     font: inherit;
+    margin: 1em auto;
 }
