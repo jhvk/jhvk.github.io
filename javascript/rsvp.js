@@ -48,7 +48,7 @@ function RSVP(route){
                     }catch(e){
                         console.log('already left page');
                     }
-                }, 4000);
+                }, 8000);
             }, 6000);
 
             load('https://script.google.com/macros/s/AKfycbyYFSd0WMsCpo-1RTA-xSVWzmsPcTsyWBuFkZPIB00Q_gV2ANM/exec?' + query)(function(result){
