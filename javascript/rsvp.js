@@ -37,7 +37,22 @@ function RSVP(route){
 
             choices.classList.add('hide');
 
+            var longRequest = setTimeout(function(){
+                choices.classList.remove('hide');
+                indicator.innerHTML = "If you are on an Apple device, your RSVP has been received. Apple doesn't play " +
+                        "nice with Google, so the site won't receive confirmation that you've been added to the sheet.";
+                indicator.classList.remove('hide');
+                setTimeout(function(){
+                    try{
+                        indicator.classList.add('hide');
+                    }catch(e){
+                        console.log('already left page');
+                    }
+                }, 4000);
+            }, 6000);
+
             load('https://script.google.com/macros/s/AKfycbyYFSd0WMsCpo-1RTA-xSVWzmsPcTsyWBuFkZPIB00Q_gV2ANM/exec?' + query)(function(result){
+                clearTimeout(longRequest);
                 choices.classList.remove('hide');
                 if(result === 'success'){
                     indicator.innerHTML = 'Your RSVP has been received.';
