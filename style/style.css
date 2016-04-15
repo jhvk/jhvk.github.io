@@ -277,3 +277,8 @@ a{
     max-height: 8em;
     max-width: 100%;
 }
+
+#first_name, #last_name{
+    display: block;
+    font: inherit;
+}
