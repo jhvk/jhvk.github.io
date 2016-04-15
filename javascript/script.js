@@ -108,26 +108,7 @@ var tilesLeave = function(){
     view.classList.remove('show-content');
 };
 
-var rsvpCode = function(route, params){
-    load('views/rsvp.html')(function(html){
-        var memory = {
-            first: 'James',
-            last: 'Hoekzema',
-            checked: false
-        };
-        view.innerHTML = template(html, {
-            memory: memory,
-            validId: true
-        });
-        setTimeout(function(){
-            view.classList.add('show-content');
-        }, 200);
-    });
-};
-
-Route([ '/rsvp','/engagement','/photos'], tileRoute, tilesLeave);
-
-Route('/rsvp/:code', rsvpCode, tilesLeave);
+Route(['/engagement','/photos'], tileRoute, tilesLeave);
 
 Route('/', function(){
     setTimeout(showSquares, 450);

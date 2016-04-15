@@ -1,17 +1,12 @@
 <h1>RSVP</h1>
 <hr>
-<div>Response for Wedding</div>
+<div>RSVP for Wedding</div>
 <div>
-    <input type="text" id="1" placeholder="first name" value="{{memory.first}}"/>
-    <input type="text" id="2" placeholder="last name" value="{{memory.last}}"/>
-    <input type="checkbox" id="3" {{memory.checked ? 'checked' : ''}}/>
+    <input type="text" id="first_name" placeholder="first name" value=""/>
+    <input type="text" id="last_name" placeholder="last name" value=""/>
+    <div id="rsvp-choice">
+        <button id="rsvp-choice-yes">Attending</button>
+        <button id="rsvp-choice-no">Not Attending</button>
+    </div>
+    <div id="recorded" class="hide">Your RSVP has been received</div>
 </div>
-{{ (validId) ?
-'<hr>\n' +
-'<div>Response for Reception</div>\n' +
-'<div>\n' +
-    '<input type="text" id="4" placeholder="first name" value="'+memory.first+'"/>\n' +
-    '<input type="text" id="5" placeholder="last name" value="'+memory.last+'"/>\n' +
-    '<input type="checkbox" id="6" '+(memory.checked ? 'checked' : '')+'/>\n' +
-'</div>\n'
-: ''}}
