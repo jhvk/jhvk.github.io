@@ -8,8 +8,9 @@ function RSVP(route){
         var indicator = document.getElementById('recorded');
         var first = document.getElementById('first_name');
         var last = document.getElementById('last_name');
+        var choices = document.getElementById('rsvp-choice');
 
-        document.getElementById('rsvp-choice').addEventListener('click', function(e){
+        choices.addEventListener('click', function(e){
             var isComing;
             if(e.target.id === 'rsvp-choice-yes'){
                 isComing = true;
@@ -34,7 +35,10 @@ function RSVP(route){
 
             var query = 'first=' + encodeURI(first.value) + '&last=' + encodeURI(last.value) + '&coming=' + isComing;
 
+            choices.classList.add('hide');
+
             load('https://script.google.com/macros/s/AKfycbyYFSd0WMsCpo-1RTA-xSVWzmsPcTsyWBuFkZPIB00Q_gV2ANM/exec?' + query)(function(result){
+                choices.classList.remove('hide');
                 if(result === 'success'){
                     indicator.innerHTML = 'Your RSVP has been received.';
                 }else{
