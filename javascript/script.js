@@ -108,12 +108,12 @@ var tilesLeave = function(){
     view.classList.remove('show-content');
 };
 
-Route(['/engagement','/photos'], tileRoute, tilesLeave);
+Route(['/engagement'], tileRoute, tilesLeave);
 
 Route('/', function(){
     setTimeout(showSquares, 450);
 }, hideSquares);
-Route(['/venue','/bridesmaids','/groomsmen', '/registry'], staticRoute, tilesLeave);
+Route(['/venue','/bridesmaids','/groomsmen', '/registry', 'photos'], staticRoute, tilesLeave);
 
 var days = Math.floor(((new Date(2016,5,18,15)).getTime() - (new Date()).getTime())/(1000*60*60*24));
 if(days > 1){
