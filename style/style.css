@@ -292,6 +292,8 @@ a{
     bottom: 5em;
     overflow: hidden;
     background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #prev-image, #next-image {
