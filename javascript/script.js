@@ -113,12 +113,5 @@ Route(['/engagement'], tileRoute, tilesLeave);
 Route('/', function(){
     setTimeout(showSquares, 450);
 }, hideSquares);
-Route(['/venue','/bridesmaids','/groomsmen', '/registry', '/photos'], staticRoute, tilesLeave);
 
-var days = Math.floor(((new Date(2016,5,18,15)).getTime() - (new Date()).getTime())/(1000*60*60*24));
-if(days > 1){
-    document.querySelector('#days').innerHTML = days + " Days Until";
-}else{
-    var hours = Math.floor(((new Date(2016,5,18,15)).getTime() - (new Date()).getTime())/(1000*60*60));
-    document.querySelector('#days').innerHTML = hours + " Hours Until";
-}
+Route(['/venue','/bridesmaids','/groomsmen', '/registry', '/photos'], staticRoute, tilesLeave);
