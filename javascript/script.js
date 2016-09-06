@@ -108,10 +108,10 @@ var tilesLeave = function(){
     view.classList.remove('show-content');
 };
 
-Route(['/engagement'], tileRoute, tilesLeave);
+Route('/engagement', tileRoute, tilesLeave);
 
 Route('/', function(){
     setTimeout(showSquares, 450);
 }, hideSquares);
 
-Route(['/venue','/bridesmaids','/groomsmen', '/registry', '/photos'], staticRoute, tilesLeave);
+Route(['/venue','/bridesmaids','/groomsmen', '/registry'], staticRoute, tilesLeave);

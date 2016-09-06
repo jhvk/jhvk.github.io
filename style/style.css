@@ -283,3 +283,31 @@ a{
     font: inherit;
     margin: 1em auto;
 }
+
+#image-viewer {
+    position: absolute;
+    left: 1em;
+    right: 1em;
+    top: 5em;
+    bottom: 5em;
+    overflow: hidden;
+    background-size: contain;
+}
+
+#prev-image, #next-image {
+    width: 20px;
+    position: absolute;
+    height: 100%;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    top: 0;
+}
+
+#prev-image{
+    left:0;
+}
+
+#next-image {
+    right: 0;
+}
