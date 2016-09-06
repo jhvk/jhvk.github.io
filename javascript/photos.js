@@ -3,8 +3,10 @@ var viewer = (function(){
     var count = 365;
     
     function loadImage(){
+        console.log('loading image');
         var viewer = document.querySelector('#image-viewer');
-        viewer.setAttribute('style', 'background-image: url("/photos/Hoekzema-' + (current+1) + '.jpg")')
+        viewer.setAttribute('style', 'background-image: url("/photos/Hoekzema-' + (current+1) + '.jpg")');
+        console.log('success');
     }
 
     Route('/message', loadImage, tilesLeave);
@@ -13,10 +15,12 @@ var viewer = (function(){
         next: function(){
             current++;
             if(current == count) current = 0;
+            loadImage();
         },
         prev: function(){
             current--;
             if(current == -1) current += count;
+            loadImage();
         }
     };
 })();
