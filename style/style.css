@@ -304,6 +304,7 @@ a{
     background: rgba(0,0,0,0.2);
     color: white;
     top: 0;
+    outline: none;
 }
 
 #prev-image{
@@ -312,4 +313,8 @@ a{
 
 #next-image {
     right: 0;
+}
+
+#image-viewer:hover button {
+    background: rgba(0,0,0,0.8);
 }
