@@ -8,8 +8,17 @@ var viewer = (function(){
         viewer.setAttribute('style', 'background-image: url("/photos/Hoekzema-' + (current+1) + '.jpg")');
         console.log('success');
     }
+    
+    function loadImageViewer(){
+        load('views/photos.html')(function(html){
+            view.innerHTML = template(html, {
+                title: 'Photos'
+            });
+            loadImage();
+        });
+    }
 
-    Route('/photos', loadImage, tilesLeave);
+    Route('/photos', loadImageViewer, tilesLeave);
     
     return {
         next: function(){
