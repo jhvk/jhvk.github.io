@@ -15,6 +15,9 @@ var viewer = (function(){
                 title: 'Photos'
             });
             loadImage();
+            setTimeout(function(){
+                view.classList.add('show-content');
+            }, 200);
         });
     }
 
