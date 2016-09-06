@@ -3,8 +3,8 @@ var viewer = (function(){
     var count = 365;
     
     function loadImage(){
-        var viewer = document.querySelector('#image=viewer');
-        viewer.setAttribute('style', 'background-image: url("/photos/Hoekzema-' + (current+1) + '")')
+        var viewer = document.querySelector('#image-viewer');
+        viewer.setAttribute('style', 'background-image: url("/photos/Hoekzema-' + (current+1) + '.jpg")')
     }
 
     Route('/message', loadImage, tilesLeave);
@@ -18,5 +18,5 @@ var viewer = (function(){
             current--;
             if(current == -1) current += count;
         }
-    }
+    };
 })();
