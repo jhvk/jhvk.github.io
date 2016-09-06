@@ -9,7 +9,7 @@ var viewer = (function(){
         console.log('success');
     }
 
-    Route('/message', loadImage, tilesLeave);
+    Route('/photos', loadImage, tilesLeave);
     
     return {
         next: function(){
